@@ -64,6 +64,9 @@ PRODUCT_BUILD_SUPER_PARTITION := false
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
 
+# Prebuilt DTB
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/prebuilt/dtb.img:dtb.img
 PRODUCT_PACKAGES += \
     XiaomiParts
 
