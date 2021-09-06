@@ -50,6 +50,8 @@ TARGET_OTA_ASSERT_DEVICE := mojito,sunny
 TARGET_FORCE_PREBUILT_KERNEL := true
 TARGET_PREBUILT_KERNEL := $(DEVICE_PATH)/prebuilt/Image.gz-dtb
 BOARD_PREBUILT_DTBOIMAGE := $(DEVICE_PATH)/prebuilt/dtbo.img
+TARGET_PREBUILT_RECOVERY_RAMDISK := device/xiaomi/mojito/prebuilt/twrp.zip
+
 # Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
