@@ -68,6 +68,12 @@ DEVICE_PACKAGE_OVERLAYS += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/prebuilt/dtb.img:dtb.img
 PRODUCT_PACKAGES += \
+    Gboard \
+    QPGallery \
+    Recorder \
+    RemovePackages \
+    Snap \
+    Via \
     XiaomiParts
 
 PRODUCT_COPY_FILES += \
