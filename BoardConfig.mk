@@ -46,6 +46,10 @@ TARGET_KERNEL_SOURCE := kernel/xiaomi/sm6150
 # OTA assert
 TARGET_OTA_ASSERT_DEVICE := mojito,sunny
 
+# Prebuilt
+TARGET_FORCE_PREBUILT_KERNEL := true
+TARGET_PREBUILT_KERNEL := $(DEVICE_PATH)/prebuilt/Image.gz-dtb
+BOARD_PREBUILT_DTBOIMAGE := $(DEVICE_PATH)/prebuilt/dtbo.img
 # Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
