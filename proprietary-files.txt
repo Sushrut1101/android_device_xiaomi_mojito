@@ -123,7 +123,6 @@ vendor/lib64/libaudio_log_utils.so
 # Camera
 vendor/lib64/libwa_rtdof.so
 vendor/lib64/libarcsat.so
-vendor/lib64/libmiai_supernight.so
 vendor/lib64/libmiStereoFactoryRemapLib.so
 vendor/lib64/libcvp_common.so
 vendor/lib64/libcvpcpuRev_skel.so
@@ -155,37 +154,6 @@ vendor/lib64/camera/com.qti.sensormodule.k7_sunny_gc02m1_macro.bin
 vendor/lib64/camera/com.qti.sensormodule.k7_sunny_imx355_ultra.bin
 vendor/lib64/camera/com.qti.sensormodule.k7_sunny_ov13b10_front.bin
 vendor/lib64/camera/com.qti.tuned.default.bin
-vendor/lib64/camera/com.qti.tuned.k7_ofilm_gc02m1_macro_china.bin
-vendor/lib64/camera/com.qti.tuned.k7_ofilm_gc02m1_macro_global.bin
-vendor/lib64/camera/com.qti.tuned.k7_ofilm_gc02m1_macro_india.bin
-vendor/lib64/camera/com.qti.tuned.k7_ofilm_imx355_ultra_china.bin
-vendor/lib64/camera/com.qti.tuned.k7_ofilm_imx355_ultra_global.bin
-vendor/lib64/camera/com.qti.tuned.k7_ofilm_imx355_ultra_india.bin
-vendor/lib64/camera/com.qti.tuned.k7_ofilm_imx582_wide_china.bin
-vendor/lib64/camera/com.qti.tuned.k7_ofilm_imx582_wide_global.bin
-vendor/lib64/camera/com.qti.tuned.k7_ofilm_imx582_wide_india.bin
-vendor/lib64/camera/com.qti.tuned.k7_ofilm_ov02b1b_depth_china.bin
-vendor/lib64/camera/com.qti.tuned.k7_ofilm_ov02b1b_depth_global.bin
-vendor/lib64/camera/com.qti.tuned.k7_ofilm_ov02b1b_depth_india.bin
-vendor/lib64/camera/com.qti.tuned.k7_ofilm_ov13b10_front_china.bin
-vendor/lib64/camera/com.qti.tuned.k7_ofilm_ov13b10_front_global.bin
-vendor/lib64/camera/com.qti.tuned.k7_ofilm_ov13b10_front_india.bin
-vendor/lib64/camera/com.qti.tuned.k7_semco_imx582_wide_china.bin
-vendor/lib64/camera/com.qti.tuned.k7_semco_imx582_wide_global.bin
-vendor/lib64/camera/com.qti.tuned.k7_semco_imx582_wide_india.bin
-vendor/lib64/camera/com.qti.tuned.k7_sunny_gc02m1b_depth_china.bin
-vendor/lib64/camera/com.qti.tuned.k7_sunny_gc02m1b_depth_global.bin
-vendor/lib64/camera/com.qti.tuned.k7_sunny_gc02m1b_depth_india.bin
-vendor/lib64/camera/com.qti.tuned.k7_sunny_gc02m1_macro_china.bin
-vendor/lib64/camera/com.qti.tuned.k7_sunny_gc02m1_macro_global.bin
-vendor/lib64/camera/com.qti.tuned.k7_sunny_gc02m1_macro_india.bin
-vendor/lib64/camera/com.qti.tuned.k7_sunny_imx355_ultra_china.bin
-vendor/lib64/camera/com.qti.tuned.k7_sunny_imx355_ultra_global.bin
-vendor/lib64/camera/com.qti.tuned.k7_sunny_imx355_ultra_india.bin
-vendor/lib64/camera/com.qti.tuned.k7_sunny_ov13b10_front_china.bin
-vendor/lib64/camera/com.qti.tuned.k7_sunny_ov13b10_front_global.bin
-vendor/lib64/camera/com.qti.tuned.k7_sunny_ov13b10_front_india.bin
-vendor/lib64/camera/com.qti.tuned.liteon_imx318.bin
 vendor/lib64/camera/components/com.almalence.node.sr.so
 vendor/lib64/camera/components/com.altek.node.depurple.so
 vendor/lib64/camera/components/com.altek.node.distortioncorrection.so
@@ -285,7 +253,6 @@ vendor/lib64/libmialgo_fs.so
 vendor/lib64/libmialgo_rfs.so
 vendor/lib64/libmialgo_sd.so
 vendor/lib64/libmialgo_utils.so
-vendor/lib64/libmibokeh_712.so
 vendor/lib64/libmpbase.so
 vendor/lib64/libremosaiclib.so
 vendor/lib64/libremosaic_wrapper.so
@@ -304,7 +271,6 @@ vendor/lib64/libswregistrationalgo.so
 vendor/lib64/libswvdec.so
 vendor/lib64/libtriplecam_optical_zoom_control.so
 vendor/lib64/libtriplecam_video_optical_zoom.so
-vendor/lib64/libmiai_portraitsupernight.so
 vendor/lib64/libVDClearShot.so
 vendor/lib64/libVDSuperPhotoAPI.so
 vendor/lib64/libvidhance.so
@@ -316,18 +282,6 @@ vendor/lib64/libI420colorconvert.so
 
 # Camera Arcsoft
 vendor/lib64/libarcsoft_beautyshot.so
-vendor/lib64/libarcsoft_bodyslim.so
-vendor/lib64/libarcsoft_distortion_correction.so
-vendor/lib64/libarcsoft_dualcam_image_optical_zoom.so
-vendor/lib64/libarcsoft_dualcam_optical_zoom_control.so
-vendor/lib64/libarcsoft_dualcam_refocus.so
-vendor/lib64/libarcsoft_dualcam_refocus_front.so
-vendor/lib64/libarcsoft_dualcam_refocus_rear_t.so
-vendor/lib64/libarcsoft_dualcam_refocus_rear_w.so
-vendor/lib64/libarcsoft_portrait_lighting.so
-vendor/lib64/libarcsoft_portrait_lighting_c.so
-vendor/lib64/libarcsoft_preview_deflicker.so
-vendor/lib64/libarcsoft_supernight.so
 
 # Camera Configs
 vendor/etc/K7A/para_ini_cal_w_uw_1.bin
