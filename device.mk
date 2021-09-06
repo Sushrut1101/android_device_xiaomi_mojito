@@ -67,6 +67,13 @@ DEVICE_PACKAGE_OVERLAYS += \
 # Prebuilt DTB
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/prebuilt/dtb.img:dtb.img
+
+# Proprietary software
+# choose either microg (or) gapps, but not both
+#$(call inherit-product, vendor/microg/config.mk)
+#WITH_AURORA := true
+#WITH_BACKENDS := true
+#$(call inherit-product, vendor/gapps/basic/config.mk)
 PRODUCT_PACKAGES += \
     Gboard \
     QPGallery \
