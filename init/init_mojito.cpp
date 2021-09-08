@@ -77,8 +77,8 @@ void vendor_load_properties() {
     property_override("ro.boot.flash.locked", "1");
     model = "Redmi Note 10";
     device = "mojito";
-    fingerprint = "google/coral/coral:11/RQ3A.210805.001.A1/7474174:user/release-keys";
-    description = "coral-user 11 RQ3A.210805.001.A1 7474174 release-keys";
+    fingerprint = "google/coral/coral:11/RQ3A.210905.001/7511028:user/release-keys";
+    description = "coral-user 11 RQ3A.210905.001 7511028 release-keys";
     set_ro_product_prop("model", model);
     set_ro_product_prop("device", device);
     set_ro_build_prop("fingerprint", fingerprint);
