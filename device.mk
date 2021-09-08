@@ -80,11 +80,7 @@ PRODUCT_PACKAGES += \
     Recorder \
     RemovePackages \
     Snap \
-    Via \
-    XiaomiParts
-
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/parts/privapp-permissions-parts.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-parts.xml
+    Via
 
 # Sensor
 TARGET_ENABLE_MULTI_SENSOR := true
