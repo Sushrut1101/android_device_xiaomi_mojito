@@ -95,7 +95,7 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # Inherit from sm6150-common
 $(call inherit-product, device/xiaomi/sm6150-common/sm6150.mk)
-=======
+
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power-service.sweet-libperfmgr
