@@ -55,6 +55,10 @@ TARGET_PREBUILT_RECOVERY_RAMDISK := device/xiaomi/mojito/prebuilt/twrp.zip
 # Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
+# Shims
+TARGET_LD_SHIM_LIBS := \
+    system/lib/libcameraservice.so|libmedia_jni_shim.so
+
 # Inherit from sm6150-common
 include device/xiaomi/sm6150-common/BoardConfigCommon.mk
 

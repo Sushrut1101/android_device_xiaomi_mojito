@@ -124,7 +124,8 @@ PRODUCT_PACKAGES += \
     camera.device@3.5-impl
 
 PRODUCT_PACKAGES += \
-    libshim_megvii
+    libshim_megvii \
+    libmedia_jni_shim
 
 # Display
 PRODUCT_PACKAGES += \
